@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  frontend:
+    image: glebs99/trust-project:2.0.0
+    restart: always
+    ports:
+      - '3000:80'
